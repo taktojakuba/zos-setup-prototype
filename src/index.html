@@ -1,12 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>zos-setup</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+        <h1 class="title">zos-setup</h1>
+        <h3>Chose what you want to install: </h3>
+        <button onclick="run('main.sh')">A</button>
+        <button onclick="run('secondary.sh')">B</button>
+        <button onclick="run('terriary.sh')">C</button>
   </body>
+  <script src="main.js"></script>
 </html>
